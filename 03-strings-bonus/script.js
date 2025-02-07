@@ -29,3 +29,26 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = '';
 console.log(upperCaseHello); // Output: "HELLO"
+
+1.
+const cityIndex = city.indexOf("Y");
+console.log(cityIndex);
+
+2.
+const citySubstring = city.substring(4);
+console.log(citySubstring);
+
+3.
+const cityReplaced = city.replace("York", "Delhi");
+console.log(cityReplaced);
+
+4.
+const cityNameConcat = `${city} ${cityName}`;
+console.log(cityNameConcat);
+
+5.
+const upperCaseHello = hello.toUpperCase();
+console.log(upperCaseHello);
+
+
+
